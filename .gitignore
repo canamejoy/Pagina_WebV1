@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Production builds and tool caches
+dist/
+build/
+coverage/
+.cache/
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.idea/
+.vscode/
+
+# TypeScript build metadata
+*.tsbuildinfo
